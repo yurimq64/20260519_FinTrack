@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1052983849173",
+    "firebase_url": "https://fintrack-turma-tqcd-default-rtdb.firebaseio.com",
+    "project_id": "fintrack-turma-tqcd",
+    "storage_bucket": "fintrack-turma-tqcd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052983849173:android:57b79f1fe28266b4f4325c",
+        "android_client_info": {
+          "package_name": "br.unifor.fintrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBx0pWg7Wl8UBAuZlNziW4AuXCBYbkClM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

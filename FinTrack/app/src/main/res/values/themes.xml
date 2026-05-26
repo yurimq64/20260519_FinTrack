@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Tema BASE do app — usado depois que a splash desaparece.
+        Note que herda de Theme.Material3.DayNight.NoActionBar pois usamos
+        Compose para tudo (não precisamos da ActionBar do XML).
+    -->
+    <style name="Theme.FinTrack" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!--
+        Tema da SplashScreen API.
+        Herda de Theme.SplashScreen (da lib androidx.core:core-splashscreen).
+
+        Atributos importantes:
+        - windowSplashScreenBackground: cor de fundo da splash (= Background do tema)
+        - windowSplashScreenAnimatedIcon: o ícone centralizado
+        - postSplashScreenTheme: tema aplicado APÓS a splash desaparecer
+    -->
+    <style name="Theme.FinTrack.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_fintrack_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.FinTrack</item>
+    </style>
+
+</resources>
